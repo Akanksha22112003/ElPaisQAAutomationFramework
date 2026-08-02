@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-02T11:43:59 IST" name="BrowserStack Parallel Suite" finished-at="2026-08-02T11:45:11 IST" duration-ms="72263">
+    <groups>
+    </groups>
+    <test started-at="2026-08-02T11:43:59 IST" name="SafariMacSonoma" finished-at="2026-08-02T11:44:24 IST" duration-ms="25865">
+      <class name="com.elpaisqa.tests.BrowserStackParallelTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@11981797]" started-at="2026-08-02T11:43:59 IST" name="setUp" finished-at="2026-08-02T11:44:05 IST" duration-ms="6568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[desktop]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sonoma]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[public void com.elpaisqa.tests.BrowserStackParallelTest.runElPaisParallelTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runElPaisParallelTest()[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@11981797]" started-at="2026-08-02T11:44:05 IST" name="runElPaisParallelTest" finished-at="2026-08-02T11:44:20 IST" duration-ms="14658" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No articles were scraped expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No articles were scraped expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at com.elpaisqa.tests.BrowserStackParallelTest.runElPaisParallelTest(BrowserStackParallelTest.java:98)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runElPaisParallelTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@11981797]" started-at="2026-08-02T11:44:20 IST" name="tearDown" finished-at="2026-08-02T11:44:24 IST" duration-ms="4600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runElPaisParallelTest status=FAILURE method=BrowserStackParallelTest.runElPaisParallelTest()[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@11981797] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@11981797]" started-at="2026-08-02T11:44:24 IST" name="afterEachTest" finished-at="2026-08-02T11:44:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runElPaisParallelTest status=FAILURE method=BrowserStackParallelTest.runElPaisParallelTest()[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@11981797] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- com.elpaisqa.tests.BrowserStackParallelTest -->
+    </test> <!-- SafariMacSonoma -->
+    <test started-at="2026-08-02T11:43:59 IST" name="SafariIphone14" finished-at="2026-08-02T11:44:45 IST" duration-ms="46016">
+      <class name="com.elpaisqa.tests.BrowserStackParallelTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@a4ca3f6]" started-at="2026-08-02T11:43:58 IST" name="setupSuite" finished-at="2026-08-02T11:43:59 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@a4ca3f6]" started-at="2026-08-02T11:43:59 IST" name="setUp" finished-at="2026-08-02T11:44:19 IST" duration-ms="20819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[iPhone 14]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[public void com.elpaisqa.tests.BrowserStackParallelTest.runElPaisParallelTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runElPaisParallelTest()[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@a4ca3f6]" started-at="2026-08-02T11:44:19 IST" name="runElPaisParallelTest" finished-at="2026-08-02T11:44:42 IST" duration-ms="22795" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected to scrape 5 articles from the Opinion section, but got: 3 expected [5] but found [3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected to scrape 5 articles from the Opinion section, but got: 3 expected [5] but found [3]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at com.elpaisqa.tests.BrowserStackParallelTest.runElPaisParallelTest(BrowserStackParallelTest.java:99)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runElPaisParallelTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@a4ca3f6]" started-at="2026-08-02T11:44:42 IST" name="tearDown" finished-at="2026-08-02T11:44:45 IST" duration-ms="2368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runElPaisParallelTest status=FAILURE method=BrowserStackParallelTest.runElPaisParallelTest()[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@a4ca3f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@a4ca3f6]" started-at="2026-08-02T11:44:45 IST" name="afterEachTest" finished-at="2026-08-02T11:44:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runElPaisParallelTest status=FAILURE method=BrowserStackParallelTest.runElPaisParallelTest()[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@a4ca3f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@a4ca3f6]" started-at="2026-08-02T11:45:11 IST" name="tearDownSuite" finished-at="2026-08-02T11:45:11 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.elpaisqa.tests.BrowserStackParallelTest -->
+    </test> <!-- SafariIphone14 -->
+    <test started-at="2026-08-02T11:43:59 IST" name="FirefoxMacVentura" finished-at="2026-08-02T11:44:53 IST" duration-ms="54313">
+      <class name="com.elpaisqa.tests.BrowserStackParallelTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@3381b4fc]" started-at="2026-08-02T11:43:59 IST" name="setUp" finished-at="2026-08-02T11:44:10 IST" duration-ms="11445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[desktop]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ventura]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[public void com.elpaisqa.tests.BrowserStackParallelTest.runElPaisParallelTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runElPaisParallelTest()[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@3381b4fc]" started-at="2026-08-02T11:44:10 IST" name="runElPaisParallelTest" finished-at="2026-08-02T11:44:50 IST" duration-ms="39888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runElPaisParallelTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@3381b4fc]" started-at="2026-08-02T11:44:50 IST" name="tearDown" finished-at="2026-08-02T11:44:53 IST" duration-ms="2946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runElPaisParallelTest status=SUCCESS method=BrowserStackParallelTest.runElPaisParallelTest()[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@3381b4fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@3381b4fc]" started-at="2026-08-02T11:44:53 IST" name="afterEachTest" finished-at="2026-08-02T11:44:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runElPaisParallelTest status=SUCCESS method=BrowserStackParallelTest.runElPaisParallelTest()[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@3381b4fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- com.elpaisqa.tests.BrowserStackParallelTest -->
+    </test> <!-- FirefoxMacVentura -->
+    <test started-at="2026-08-02T11:43:59 IST" name="ChromeWindows11" finished-at="2026-08-02T11:44:54 IST" duration-ms="55340">
+      <class name="com.elpaisqa.tests.BrowserStackParallelTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@5286c33a]" started-at="2026-08-02T11:43:59 IST" name="setUp" finished-at="2026-08-02T11:44:04 IST" duration-ms="5611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[desktop]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[public void com.elpaisqa.tests.BrowserStackParallelTest.runElPaisParallelTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runElPaisParallelTest()[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@5286c33a]" started-at="2026-08-02T11:44:04 IST" name="runElPaisParallelTest" finished-at="2026-08-02T11:44:51 IST" duration-ms="47170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runElPaisParallelTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@5286c33a]" started-at="2026-08-02T11:44:51 IST" name="tearDown" finished-at="2026-08-02T11:44:54 IST" duration-ms="2517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runElPaisParallelTest status=SUCCESS method=BrowserStackParallelTest.runElPaisParallelTest()[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@5286c33a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@5286c33a]" started-at="2026-08-02T11:44:54 IST" name="afterEachTest" finished-at="2026-08-02T11:44:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runElPaisParallelTest status=SUCCESS method=BrowserStackParallelTest.runElPaisParallelTest()[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@5286c33a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- com.elpaisqa.tests.BrowserStackParallelTest -->
+    </test> <!-- ChromeWindows11 -->
+    <test started-at="2026-08-02T11:43:59 IST" name="ChromeSamsungS23" finished-at="2026-08-02T11:45:11 IST" duration-ms="72263">
+      <class name="com.elpaisqa.tests.BrowserStackParallelTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@aeab9a1]" started-at="2026-08-02T11:43:59 IST" name="setUp" finished-at="2026-08-02T11:44:21 IST" duration-ms="22086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[13.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Samsung Galaxy S23]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[public void com.elpaisqa.tests.BrowserStackParallelTest.runElPaisParallelTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runElPaisParallelTest()[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@aeab9a1]" started-at="2026-08-02T11:44:21 IST" name="runElPaisParallelTest" finished-at="2026-08-02T11:45:08 IST" duration-ms="47235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runElPaisParallelTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@aeab9a1]" started-at="2026-08-02T11:45:08 IST" name="tearDown" finished-at="2026-08-02T11:45:11 IST" duration-ms="2907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runElPaisParallelTest status=SUCCESS method=BrowserStackParallelTest.runElPaisParallelTest()[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@aeab9a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@aeab9a1]" started-at="2026-08-02T11:45:11 IST" name="afterEachTest" finished-at="2026-08-02T11:45:11 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runElPaisParallelTest status=SUCCESS method=BrowserStackParallelTest.runElPaisParallelTest()[pri:0, instance:com.elpaisqa.tests.BrowserStackParallelTest@aeab9a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- com.elpaisqa.tests.BrowserStackParallelTest -->
+    </test> <!-- ChromeSamsungS23 -->
+  </suite> <!-- BrowserStack Parallel Suite -->
+</testng-results>
